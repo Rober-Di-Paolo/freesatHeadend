@@ -1,0 +1,14 @@
+{
+    "name": "Capital TV", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        12
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "507", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/257/online/Channel Image Pop-Up Page v2 without tag line.jpg"
+}

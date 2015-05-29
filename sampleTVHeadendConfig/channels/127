@@ -1,0 +1,14 @@
+{
+    "name": "QVC", 
+    "channel_number": "800", 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        7
+    ], 
+    "dvr_extra_time_post": 0, 
+    "dvr_extra_time_pre": 0, 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/187/online/800.jpg"
+}

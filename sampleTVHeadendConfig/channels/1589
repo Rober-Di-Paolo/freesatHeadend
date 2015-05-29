@@ -1,0 +1,10 @@
+{
+    "name": "Vintage TV", 
+    "channel_number": "505", 
+    "tags": [
+        12
+    ], 
+    "dvr_extra_time_post": 0, 
+    "dvr_extra_time_pre": 0, 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/221/online/VintageTV-TV-Guide-88x65.jpg"
+}

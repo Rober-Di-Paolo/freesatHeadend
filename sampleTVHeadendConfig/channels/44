@@ -1,0 +1,13 @@
+{
+    "name": "holiday+cruise", 
+    "channel_number": "409", 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null
+    ], 
+    "dvr_extra_time_post": 0, 
+    "dvr_extra_time_pre": 0, 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/298/online/Holiday-and-Cruise-TV-Guide-88x65.jpg"
+}

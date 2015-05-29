@@ -1,0 +1,14 @@
+{
+    "name": "RT", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        14
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "206", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/276/online/RT-New-Logo 75x70.png"
+}

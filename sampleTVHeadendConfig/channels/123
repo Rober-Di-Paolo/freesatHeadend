@@ -1,0 +1,14 @@
+{
+    "name": "The Box", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        12
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "509", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/281/online/The-Box-TV-Guide-Logo-88x65.png"
+}

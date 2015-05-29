@@ -1,0 +1,9 @@
+{
+	"name": "Channel 5 HD",
+	"icon": "http://www.lyngsat-logo.com/logo/tv/cc/channel5_region1.jpg",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 105
+}

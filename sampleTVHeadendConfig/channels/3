@@ -1,0 +1,12 @@
+{
+	"name": "ITV HD (Granada/Border)",
+	"icon": "http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_hd.jpg",
+	"tags": [
+		3,
+		2,
+		1
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 103
+}

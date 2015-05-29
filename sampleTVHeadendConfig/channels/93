@@ -1,0 +1,11 @@
+{
+    "name": "Classic FM", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        5
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "721", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/90/online/721.gif"
+}

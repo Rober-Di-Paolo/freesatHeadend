@@ -1,0 +1,14 @@
+{
+    "name": "BBC NEWS HD", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        2, 
+        1, 
+        null, 
+        14
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "200", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/309/online/BBCNEWSHD135x76.png"
+}

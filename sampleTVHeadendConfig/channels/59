@@ -1,0 +1,13 @@
+{
+    "name": "Magic", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        5, 
+        null, 
+        12
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "510", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/283/online/MagicTV-TV-Guide-88x65.jpg"
+}

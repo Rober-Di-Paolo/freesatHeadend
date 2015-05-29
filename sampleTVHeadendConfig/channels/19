@@ -1,0 +1,12 @@
+{
+	"name": "ITV London",
+	"icon": "http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.jpg",
+	"tags": [
+		3,
+		4,
+		1
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 119
+}

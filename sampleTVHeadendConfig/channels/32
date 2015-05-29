@@ -1,0 +1,14 @@
+{
+    "name": "CCTV News", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        14
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "211", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/228/online/CCTV-News.png"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "High Street TV", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        7
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "821", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/252/online/High Street TV.png"
+}

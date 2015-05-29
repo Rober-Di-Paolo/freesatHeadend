@@ -1,0 +1,13 @@
+{
+    "name": "Channel 4 HD", 
+    "tags": [
+        1, 
+        2, 
+        3, 
+        9
+    ], 
+    "dvr_extra_time_post": 0, 
+    "dvr_extra_time_pre": 0, 
+    "channel_number": "126", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/241/online/4HD.png"
+}

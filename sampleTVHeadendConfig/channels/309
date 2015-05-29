@@ -1,0 +1,11 @@
+{
+    "name": "CITV", 
+    "channel_number": "602", 
+    "tags": [
+        null, 
+        16
+    ], 
+    "dvr_extra_time_post": 0, 
+    "dvr_extra_time_pre": 0, 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/89/online/CITV_430x275.png"
+}

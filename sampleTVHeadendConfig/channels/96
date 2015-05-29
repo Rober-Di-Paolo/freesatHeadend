@@ -1,0 +1,11 @@
+{
+    "name": "Capital FM", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        5
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "719", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/68/online/719.jpg"
+}

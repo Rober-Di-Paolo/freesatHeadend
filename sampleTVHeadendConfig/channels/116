@@ -1,0 +1,14 @@
+{
+    "name": "Pick", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        9
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "144", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/271/online/Pick_logo_freesat 430X275.jpg"
+}

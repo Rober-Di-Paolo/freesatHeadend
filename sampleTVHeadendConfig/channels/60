@@ -1,0 +1,13 @@
+{
+    "name": "Kiss", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        5, 
+        null, 
+        12
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "508", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/279/online/Kiss430x275.png"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "movies4men", 
+    "dvr_extra_time_pre": 0, 
+    "tags": [
+        3, 
+        4, 
+        1, 
+        null, 
+        11
+    ], 
+    "dvr_extra_time_post": 0, 
+    "channel_number": "304", 
+    "icon": "http://images.platform.freesat.tv/web/channel_logos/169/online/304.gif"
+}

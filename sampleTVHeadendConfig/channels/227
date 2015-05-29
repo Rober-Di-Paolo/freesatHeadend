@@ -1,0 +1,9 @@
+{
+	"name": "BBC One Oxford",
+	"icon": "http://www.lyngsat-logo.com/logo/tv/bb/bbc_one_oxford.jpg",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 0
+}

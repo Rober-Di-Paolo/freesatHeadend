@@ -1,0 +1,12 @@
+{
+	"name": "5USA",
+	"icon": "http://www.lyngsat-logo.com/logo/tv/cc/channel5_usa.jpg",
+	"tags": [
+		1,
+		4,
+		3
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 129
+}
