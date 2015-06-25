@@ -1,5 +1,6 @@
 {
     "name": "Channel 5", 
+    "dvr_extra_time_pre": 0, 
     "tags": [
         1, 
         4, 
@@ -7,7 +8,6 @@
         9
     ], 
     "dvr_extra_time_post": 0, 
-    "dvr_extra_time_pre": 0, 
     "channel_number": "105", 
     "icon": "http://images.platform.freesat.tv/web/channel_logos/232/online/105.gif"
 }

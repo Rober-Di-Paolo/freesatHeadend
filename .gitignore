@@ -56,5 +56,9 @@ docs/_build/
 # PyBuilder
 target/
 
+#idea project files
+.idea
+*.iml
+
 # Icon Cache
 IconCache

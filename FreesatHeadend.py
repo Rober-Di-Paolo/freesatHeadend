@@ -13,59 +13,67 @@ g_freesatSourceURL="http://services.platform.freesat.tv/g2/channel_list/chlist.p
 
 # The broadcast names and the names on the freesat website don't always match-up
 # So we fix the Freesat names to match the broadcast names
-def fixupChannelName(strName):
-    strName = strName.replace("BBC 1", "BBC One")
-    strName = strName.replace("BBC ONE", "BBC One")
-    strName = strName.replace("BBC TWO", "BBC Two")
-    strName = strName.replace("BBC THREE", "BBC Three")
-    strName = strName.replace("BBC FOUR", "BBC Four")
-    strName = strName.replace("Smash Hits", "Smash Hits!")
-    strName = strName.replace("Pick FSAT", "Pick")
-    strName = strName.replace("Community Channel", "Community")
-    strName = strName.replace("more than movies", "more>movies")
-    strName = strName.replace("Sony SAB", "SONY SAB")
-    strName = strName.replace("ITV (Yorks W)", "ITV")
-    strName = strName.replace("ITV +1 (Yorkshire)", "ITV +1")
-	strName = strName.replace("ITV +1", "ITV+1")
-    strName = strName.replace("ITV HD (North)", "ITV HD")
-    strName = strName.replace("Channel 5 North", "Channel 5")
-    strName = strName.replace("Channel 5 +1", "Channel 5+1")
-    strName = strName.replace("5+24", "Channel 5+24")
-    strName = strName.replace("euronews", "Euronews")
-    strName = strName.replace("Cbeebies", "CBeebies")
-    strName = strName.replace("Channel 4 North", "Channel 4")
-    strName = strName.replace("Channel 4 North + 1", "Channel 4 +1")
-    strName = strName.replace("FLAVA", "Flava")
-    strName = strName.replace("Holiday+Cruise", "holiday+cruise")
-    strName = strName.replace("More4 + 1", "More4 +1")
-    strName = strName.replace("NHK WORLD HD", "NHK World HD")
-    strName = strName.replace("Smooth RadioUK", "Smooth")
-    strName = strName.replace("Pop", "POP")
-    strName = strName.replace("S4C Digidol", "S4C")
-    #strName = strName.replace("KISS", "Kiss")
-    #strName = strName.replace("Kiss", "KISS")
-    strName = strName.replace("RT HD", "RT")
-    strName = strName.replace("BET+1", "BET +1")
-    strName = strName.replace("Movies4Men", "movies4men")
-    strName = strName.replace("Al Jazeera English", "Al Jazeera Eng")
-    strName = strName.replace("Capital Xtra", "Capital XTRA")
-    strName = strName.replace("CAPITAL TV", "Capital TV")
-    strName = strName.replace("Rocks & Co1", "Rocks & Co 1")
-    strName = strName.replace("TV Shop", "TV SHOP")
-    strName = strName.replace("CLUBLAND  TV", "Clubland TV")
-    strName = strName.replace("heart tv", "Heart TV")
-    strName = strName.replace("PlanetRock", "Planet Rock")
-    #strName = strName.replace("", "")    
-    return strName
+def fixupChannelName(name):
+
+    # This list has mainly been worked out by trial and error and will likely change over time.
+    # Might make sense to load this from a file.
+    fixupList = [
+        ("BBC 1", "BBC One"),
+        ("BBC ONE", "BBC One"),
+        ("BBC TWO", "BBC Two"),
+        ("BBC THREE", "BBC Three"),
+        ("BBC FOUR", "BBC Four"),
+        ("Smash Hits", "Smash Hits!"),
+        ("Pick FSAT", "Pick"),
+        ("Community Channel", "Community"),
+        ("more than movies", "more>movies"),
+        ("Sony SAB", "SONY SAB"),
+        ("ITV (Yorks W)", "ITV"),
+        ("ITV +1 (Yorkshire)", "ITV +1"),
+        ("ITV +1", "ITV+1"),
+        ("ITV HD (North)", "ITV HD"),
+        ("Channel 5 North", "Channel 5"),
+        ("Channel 5 +1", "Channel 5+1"),
+        ("5+24", "Channel 5+24"),
+        ("euronews", "Euronews"),
+        ("Cbeebies", "CBeebies"),
+        ("Channel 4 North", "Channel 4"),
+        ("Channel 4 North + 1", "Channel 4 +1"),
+        ("FLAVA", "Flava"),
+        ("Holiday+Cruise", "holiday+cruise"),
+        ("More4 + 1", "More4 +1"),
+        ("NHK WORLD HD", "NHK World HD"),
+        ("Smooth RadioUK", "Smooth"),
+        ("Pop", "POP"),
+        ("S4C Digidol", "S4C"),
+        ("KISS", "Kiss"),
+        ("Kiss", "KISS"),
+        ("RT HD", "RT"),
+        ("BET+1", "BET +1"),
+        ("Movies4Men", "movies4men"),
+        ("Al Jazeera English", "Al Jazeera Eng"),
+        ("Capital Xtra", "Capital XTRA"),
+        ("CAPITAL TV", "Capital TV"),
+        ("Rocks & Co1", "Rocks & Co 1"),
+        ("TV Shop", "TV SHOP"),
+        ("CLUBLAND  TV", "Clubland TV"),
+        ("heart tv", "Heart TV"),
+        ("PlanetRock", "Planet Rock")
+    ]
+
+    for src, dest in fixupList:
+        name = name.replace(src, dest)
+
+    return name
 
 if __name__ == "__main__":
     options = {"type":"json",
                "device":"hd",
                "pcode":"LS6"}
 			   
-    iconCache = "W:\\Stuff\\Personal\\Freesat\\icons\\"
-    tvheadendChannelsPath = "W:\\Stuff\\Personal\\Freesat\\tvheadend\\channels\\"
-    tvheadendTagsPath = "W:\\Stuff\\Personal\\Freesat\\tvheadend\\channeltags\\"
+    iconCache = "W:\\Stuff\\Personal\\FreesatHeadEnd\\IconCache\\"
+    tvheadendChannelsPath = "W:\\Stuff\\Personal\\FreesatHeadEnd\\sampleTVHeadendConfig\\channels\\"
+    tvheadendTagsPath = "W:\\Stuff\\Personal\\FreesatHeadEnd\\sampleTVHeadendConfig\\channeltags\\"
 
     print "Reading Channel List from '{0}'...".format(g_freesatSourceURL)
 	
